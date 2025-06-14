@@ -1,0 +1,19 @@
+{
+    "name": "auth-adapter",
+    "version": "1.1.0",
+    "description": "Authentication adapter for microservice behind Kong API Gateway",
+    "main": "src/index.js",
+    "repository": "git@gitlab.com:snapvn/auth-adapter.git",
+    "author": "Quang Minh <minhpq331@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "http-status": "^1.2.0",
+        "jsonwebtoken": "^8.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^4.2.0",
+        "eslint-config-airbnb-base": "^12.0.1",
+        "eslint-plugin-import": "^2.2.0"
+    }
+}
